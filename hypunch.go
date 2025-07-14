@@ -10,7 +10,7 @@ import (
 )
 
 const HOLE_PUNCH_SERVER_PORT int = 33333 // This can be any port you want to run the server on
-const HOST_IP string = "0.0.0.0"
+const HOST_IP string = "0.0.0.0"         // This is the IP of the actual server host
 
 // A Peer is a client outside of the server.
 type Peer struct {
