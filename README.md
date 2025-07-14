@@ -14,8 +14,10 @@ Likely you already have an external server to run this code on for users to conn
 
 ### Install external dependencies
 
-We currently use google's unique id generator for generating a "match" id for the users connecting.
+We currently use google's unique id generator for generating a "match" id for the users connecting \n.
 `go get github.com/google/uuid`
+
+Alternatively you are free to modify the server to not use UUID and remain dependency free.
 
 ### Run the server
 
